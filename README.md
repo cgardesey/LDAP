@@ -34,7 +34,6 @@ The application will be accessible at http://localhost:5000.
 ## LDAP Configuration
 
 To configure LDAP for Single Sign-On, modify the appsettings.json file with your LDAP server details:
-  ```bash
   {
   "LDAPSettings": {
     "Server": "ldap://ldap.example.com",
@@ -42,13 +41,12 @@ To configure LDAP for Single Sign-On, modify the appsettings.json file with your
     "BaseDN": "ou=users,dc=example,dc=com",
     "Username": "cn=admin,dc=example,dc=com",
     "Password": "yourpassword"
-  }
-}
+   }
+ }
 
 Ensure to replace the placeholders with your LDAP server information.
 
 ## Usage
-
 1. Access the application at http://localhost:5000.
 2. Click on the "Login" button.
 3. Enter your LDAP username and password.

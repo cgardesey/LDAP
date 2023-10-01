@@ -18,11 +18,11 @@ Before you begin, ensure you have the following installed/configured:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/aspnet-ldap-sso.git
+   git clone https://github.com/cgardesey/LDAP.git
 
 2. Navigate to the project directory:
    ```bash
-   cd aspnet-ldap-sso
+   cd LDAP
 
 3. Restore dependencies and run the application:
    ```bash
